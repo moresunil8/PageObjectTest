@@ -33,6 +33,7 @@ public class DeleteCustomerPage
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
 		alert.accept();
+		Sheet1.getRow(i).getCell(10).setCellValue("deleted");
 		}
 		
 	}
